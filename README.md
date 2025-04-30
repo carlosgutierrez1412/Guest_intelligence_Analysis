@@ -15,10 +15,16 @@ An interactive analytics dashboard built with **Streamlit**, **Pandas**, and **P
 ---
 
 ## ⚙️ Tools & Technologies
-- **SQL Server**: Created 8 analytical views using:
-  - Basic SELECT/FROM, JOINs, GROUP BY, CTEs, date extraction, aggregations
-  - Example logic: Revenue by category, items per type, order tier bucketing
-
+- **SQL Server**:
+  - Designed and created **8 SQL views** to clean, transform, and aggregate raw transactional data.
+  - Used:
+    - `SELECT`, `FROM`, `WHERE`, and `JOIN` statements to merge sales and item dimensions
+    - `GROUP BY`, `ORDER BY`, and `COUNT`/`SUM` for aggregation logic
+    - `CASE` statements for classifying revenue tiers (e.g., Low / Medium / High orders)
+    - `DATEPART()` and `CONVERT()` functions to break dates into day, month, and weekday
+    - **CTEs (Common Table Expressions)** to handle funnel stages and top-performers logic
+    - **Window functions like `RANK()` and `ROW_NUMBER()`** to extract top 3 items by type
+      
 - **Pandas**:
   - Loaded and cleaned CSVs exported from SQL
   - Standardized column names and converted date fields
