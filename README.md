@@ -1,6 +1,12 @@
 # Guest Intelligence Dashboard 📊
 
-An interactive analytics dashboard built with **Streamlit**, **Pandas**, and **Plotly** to visualize guest behavior and sales performance for a fast-food chain. This project aligns with the role of a **Guest Intelligence Analyst** by analyzing customer data, identifying trends, and presenting insights in a usable interface.
+An interactive analytics dashboard built with **SQL**, **Pyhton**, **Excel**, **Streamlit**, **Pandas**, and **Plotly** to visualize guest behavior and sales performance from a public dataset on **Kaggle** (https://www.kaggle.com/datasets/rajatsurana979/fast-food-sales-report). This project aligns with the role of a **Guest Intelligence Analyst** by analyzing customer data, identifying trends, and presenting insights in a usable interface.
+
+---
+
+## 🌐 Live Demo
+[Try the Dashboard on Streamlit Cloud](https://guestintelligenceanalysis-h6jjpeg6eyrn79zfbzuacu.streamlit.app/) 
+
 
 ---
 
@@ -44,9 +50,5 @@ An interactive analytics dashboard built with **Streamlit**, **Pandas**, and **P
 ---
 
 
-## 🌐 Live Demo
-[Try the Dashboard on Streamlit Cloud](https://guestintelligenceanalysis-h6jjpeg6eyrn79zfbzuacu.streamlit.app/) 
-
----
 
 
