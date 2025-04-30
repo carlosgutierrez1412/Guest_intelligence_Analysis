@@ -2,8 +2,13 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 from pathlib import Path
+import os
 
 st.cache_data.clear()
+
+
+st.write("📂 Current directory:", os.getcwd())
+st.write("📄 Contents of views folder:", os.listdir(BASE_PATH))
 
 
 st.set_page_config(page_title="Guest Intelligence Dashboard", layout="wide")
