@@ -7,14 +7,11 @@ import os
 st.cache_data.clear()
 
 
-st.write("📂 Current directory:", os.getcwd())
-st.write("📄 Contents of views folder:", os.listdir(BASE_PATH))
-
 
 st.set_page_config(page_title="Guest Intelligence Dashboard", layout="wide")
 st.title("Guest Intelligence Dashboard \U0001f4ca")
 
-BASE_PATH = Path(__file__).resolve().parent.parent / "views"
+BASE_PATH = Path(os.path.abspath("views"))
 
 
 @st.cache_data
