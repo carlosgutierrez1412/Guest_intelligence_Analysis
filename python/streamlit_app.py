@@ -6,7 +6,7 @@ import os
 
 st.cache_data.clear()
 
-
+st.write("✅ Files in /views:", os.listdir("views"))
 
 st.set_page_config(page_title="Guest Intelligence Dashboard", layout="wide")
 st.title("Guest Intelligence Dashboard \U0001f4ca")
