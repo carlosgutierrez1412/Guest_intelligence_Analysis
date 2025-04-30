@@ -1,4 +1,6 @@
 import streamlit as st
+st.set_page_config(page_title="Guest Intelligence Dashboard", layout="wide")
+
 import pandas as pd
 import plotly.express as px
 from pathlib import Path
@@ -6,9 +8,6 @@ import os
 
 st.cache_data.clear()
 
-st.write("✅ Files in /views:", os.listdir("views"))
-
-st.set_page_config(page_title="Guest Intelligence Dashboard", layout="wide")
 st.title("Guest Intelligence Dashboard \U0001f4ca")
 
 BASE_PATH = Path(os.path.abspath("views"))
