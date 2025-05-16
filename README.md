@@ -69,7 +69,7 @@ An interactive analytics dashboard built with **SQL**, **Pyhton**, **Excel**, **
 - **Actionable Takeaway**: Maintain both payment infrastructures and analyze preferences by customer segment.
 
 ### **🏷️ Order Revenue Tier Distribution**
-- **Insight**: 76.7% of orders fall into the Low revenue tier.
+- **Insight**: 76.7% of orders fall into the High revenue tier.
 - **Actionable Takeaway**: Introduce incentives to increase order value and shift more transactions into the Medium/High tiers.
 
 ### **⭐ Top 3 Items by Type**
